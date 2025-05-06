@@ -2,7 +2,7 @@ import re
 import json
 from typing import List, Dict, Optional
 
-def extract_products_from_html(html_list: list) -> Optional[List[Dict]]:
+def extract_products_from_html_moyo(html_list: list) -> Optional[List[Dict]]:
     pattern = r"window\.dataLayer\.push\((\{.*?\})\);"
     products = []
     for html_page in html_list:
