@@ -24,5 +24,6 @@ This project is a Python-based web scraper designed to collect data about SSDs f
 - Market monitoring
 
 ## Disclaimer
+The project is still under development.
 
 This scraper is intended for educational and portfolio purposes only. Please respect the terms of service of any website you scrape.
