@@ -1,7 +1,6 @@
 import requests
 import cloudscraper
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 from typing import Optional
 from parser import extract_products_from_html_moyo
 from comparer import save_to_csv, save_to_csv_moyo
